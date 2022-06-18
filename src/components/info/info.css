@@ -1,72 +1,71 @@
-.sec2{
+.sec2 {
+  position: relative;
+  width: 100%;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+.centro {
+  width: 80%;
+  margin: 2rem auto;
+  height: 35rem;
+  position: relative;
+  top: 2rem;
+}
+
+.centro::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #dbf2fd;
+  position: absolute;
+  opacity: 0.5;
+  -webkit-box-shadow: 10px 10px 16px 0px rgba(62, 93, 173, 1);
+  -moz-box-shadow: 10px 10px 16px 0px rgba(62, 93, 173, 1);
+  box-shadow: 10px 10px 16px 0px rgba(62, 93, 173, 1);
+}
+
+.con-trian2 {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.trian2 {
+  clip-path: polygon(100% 0, 0 0, 28% 39%);
+  width: 30rem;
+  height: 30rem;
+  background: #3e5dad;
+}
+/* Lineas izquierdas */
+.izq {
+  position: relative;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: flex-end;
+}
+.linea_l {
+  height: 80%;
+  border-left: black solid;
+  margin-bottom: 7px;
+  margin-left: 0.2rem;
+}
+.linea_l2 {
+  height: 75%;
+  border-left: black solid;
+  opacity: 1;
+  margin-bottom: 7px;
+  margin-left: 0.2rem;
+}
+
+/* lineas derechas */
+.der{
     position: relative;
-    width: 100%;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: flex-end;
 }
-
-.sec2 .centro{
-    width: 80%;
-    margin:2rem auto;
-    height: 35rem;  
-    opacity: 0.5;   
-    background: #dbf2fd;
-    display: flex;
-    align-items: flex-end;
-}
-
-.sec2 .trian2{
-    position: absolute;
-    clip-path: polygon(100% 0, 0 0, 28% 39%);
-    width: 30rem;
-    height: 30rem;
-    background: #3e5dad;
-}
-
-.linea_l{
-    height: 80%;
-    border-left: black solid;
-    margin-bottom: 7px;
-    margin-left: .2rem;
-}
-.linea_l2{
-    height: 75%;
-    border-left: black solid;
-    opacity: 1;
-    margin-bottom: 7px;
-    margin-left: .2rem;
-}
-/* Prueba */
-
-div.background {
-    width: 80%;
-    margin:2rem auto;
-    height: 35rem;  
-    position: relative;
-    
-  }
-  
-div.background::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: #dbf2fd;
-    position: absolute;
-    opacity: .5;
-}
-.hijo{
-    position: relative;
-    height: 100%;
-    width: 20%;
-
-    display: flex;
-    align-items: flex-end;
-}
-
-  
-  div.transbox p {
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
-  }
-
