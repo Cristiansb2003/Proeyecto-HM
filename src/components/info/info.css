@@ -37,24 +37,36 @@
     margin-left: .2rem;
 }
 /* Prueba */
-.myDiv {
+
+div.background {
+    width: 80%;
+    margin:2rem auto;
+    height: 35rem;  
     position: relative;
-    z-index: 5;
-    height: 250px;
-    width: 300px;
-    color: #000;
-    font-size: 400%;
-    padding: 20px;
+    
   }
   
-  .myDiv::before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: url(//files.ctctcdn.com/77be3546001/91b996da-b256-4ec5-9a6e-5bf92c3922d0.jpg) center center;
-      opacity: .2;
+div.background::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #dbf2fd;
+    position: absolute;
+    opacity: .5;
+}
+.hijo{
+    position: relative;
+    height: 100%;
+    width: 20%;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
   }
+
