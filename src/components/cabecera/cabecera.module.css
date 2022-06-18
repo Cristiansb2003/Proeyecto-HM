@@ -1,0 +1,49 @@
+/* Header */
+.contenedor {
+  width: 100%;
+  height: 28rem;
+  position: relative;
+}
+.izq {
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+  width: 100vw;
+  height: 62%;
+  position: absolute;
+  background: #3e5dad;
+}
+.der{
+    clip-path: polygon(100% 100%, 100% 0, 0% 0);
+    height: 100%;
+    width: 100%;
+    background: #68bd44;
+    position: absolute;
+}
+.conDer{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 40%;
+}
+
+.espacio{
+  width: 100vw;
+  height: 62%;
+}
+.logo{
+  width: 100%;
+  position: relative;
+  display: flex;
+  margin-top: -6%;
+}
+.logo > img{
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px){
+  .contenedor{
+      height: 15rem;
+  }
+}

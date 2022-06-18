@@ -1,0 +1,60 @@
+.sec2{
+    position: relative;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.sec2 .centro{
+    width: 80%;
+    margin:2rem auto;
+    height: 35rem;  
+    opacity: 0.5;   
+    background: #dbf2fd;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sec2 .trian2{
+    position: absolute;
+    clip-path: polygon(100% 0, 0 0, 28% 39%);
+    width: 30rem;
+    height: 30rem;
+    background: #3e5dad;
+}
+
+.linea_l{
+    height: 80%;
+    border-left: black solid;
+    margin-bottom: 7px;
+    margin-left: .2rem;
+}
+.linea_l2{
+    height: 75%;
+    border-left: black solid;
+    opacity: 1;
+    margin-bottom: 7px;
+    margin-left: .2rem;
+}
+/* Prueba */
+.myDiv {
+    position: relative;
+    z-index: 5;
+    height: 250px;
+    width: 300px;
+    color: #000;
+    font-size: 400%;
+    padding: 20px;
+  }
+  
+  .myDiv::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: url(//files.ctctcdn.com/77be3546001/91b996da-b256-4ec5-9a6e-5bf92c3922d0.jpg) center center;
+      opacity: .2;
+  }
