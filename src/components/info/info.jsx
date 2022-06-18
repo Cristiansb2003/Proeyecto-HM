@@ -8,13 +8,12 @@ export function Info() {
         <div className="trian2"></div>
       </div>
       <div className="centro">
-        <div className="izq">
-          <div className="linea_l"></div>
-          <div className="linea_l2"></div>
-        </div>
-        <div className="der">
-          <div className="linea_l"></div>
-          <div className="linea_l2"></div>
+        <div className="contenedor">
+          <div className="izq"></div>
+          <div className="sup"></div>
+          <div className="tex"></div>
+          <div className="der"></div>
+          <div className="inf"></div>
         </div>
       </div>
     </div>
