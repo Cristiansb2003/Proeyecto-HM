@@ -9,11 +9,25 @@ export function Info() {
       </div>
       <div className="centro">
         <div className="contenedor">
-          <div className="izq"></div>
-          <div className="sup"></div>
-          <div className="tex"></div>
-          <div className="der"></div>
-          <div className="inf"></div>
+          <div className="izq">
+            <div className="l1"></div>
+            <div className="l2"></div>
+          </div>
+          <div className="sup">
+            <div className="l1"></div>
+            <div className="l2"></div>
+          </div>
+          <div className="tex">
+            <p>Hola como estan</p>
+          </div>
+          <div className="der">
+            <div className="l1"></div>
+            <div className="l2"></div>
+          </div>
+          <div className="inf">
+            <div className="l1"></div>
+            <div className="l2"></div>
+          </div>
         </div>
       </div>
     </div>
