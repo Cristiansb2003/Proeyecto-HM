@@ -75,7 +75,7 @@
   border-right: black solid;
   height: 60%;
   position: relative;
-  left: .9rem;
+  left: 0.9rem;
 }
 .sup {
   width: 100%;
@@ -125,6 +125,9 @@
 .inf {
   width: 100%;
   grid-area: inf;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .inf .l1 {
@@ -134,8 +137,8 @@
   bottom: 0.3rem;
 }
 .inf .l2 {
-    border-top: black solid;
-position: absolute;
-width: 70%;
-bottom: .9rem;
+  border-top: black solid;
+  position: absolute;
+  width: 70%;
+  bottom: 0.9rem;
 }

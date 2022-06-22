@@ -1,7 +1,36 @@
-    
+.contenedorA {
+  width: 100%;
+  height: 30rem;
+}
 
-div > .contenedor{
-    width: 100%;
+.card{
+    width: 80%;
+    height: 100%;
+    margin: 2rem auto;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.act{
+    background-color: blue;
+}
+
+.act1{
+    width: 30%;
+    background: #2ba58c;
+    height: 100%;
+}
+
+.act2{
+    width: 40%;
+    background: #68bd44;
+    height: 60%;
+    
+}
+
+.act3{
+    width: 20%;
+    background: #3e5dad;
+    height: 100%;
 }
