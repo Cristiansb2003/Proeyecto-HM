@@ -23,6 +23,7 @@
 }
 .imagen {
   width: 45%;
+  min-width: 17rem;
 }
 .imagen > img {
   width: auto;
