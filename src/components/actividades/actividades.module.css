@@ -1,0 +1,111 @@
+.contenedor {
+  width: 100%;
+  height: 30rem;
+  border-top: solid #e5e1ac;
+  margin-bottom: rem;
+}
+.titulo {
+  width: 100%;
+  text-align: center;
+}
+.card {
+  width: 80%;
+  height: 100%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.act {
+  background-color: blue;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.act .con_ima {
+  height: 78%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.act1 .con_ima > img {
+  width: 90%;
+}
+.act2 .con_ima > img {
+    width: 55%;
+  }
+  .act3 .con_ima > img {
+    width: 95%;
+  }
+.act .titulo {
+  height: 22%;
+  width: 100%;  
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.act1 {
+  width: 30%;
+  background: #2ba58c;
+  height: 100%;
+}
+
+.act2 {
+  width: 40%;
+  background: #68bd44;
+  height: 60%;
+}
+
+.act3 {
+  width: 20%;
+  background: #3e5dad;
+  height: 100%;
+}
+
+/* Cinta */
+.act1 .con_cinta{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  top: -4rem;
+}
+
+.act1 .con_cinta > img{
+  width: 80%;
+  opacity: .5;
+}
+
+.act2 .con_cinta{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  top: -3rem;
+}
+
+.act2 .con_cinta > img{
+  width: 40%;
+  opacity: .5;
+}
+.act3 .con_cinta{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  top: -3rem;
+}
+
+.act3 .con_cinta > img{
+  width: 80%;
+  opacity: .5;
+}
