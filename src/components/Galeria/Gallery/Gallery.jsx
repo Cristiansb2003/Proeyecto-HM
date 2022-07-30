@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import st from './gallery.module.css'
+import CloseIcon from '@material-ui/icons/Close';
 import Img1 from '../../../utils/actividad-piloto/1.jpg';
 import Img2 from '../../../utils/actividad-piloto/2.jpg';
 import Img3 from '../../../utils/actividad-piloto/3.jpg';
@@ -35,7 +36,9 @@ export function Gallery(){
         <div>
             <div className={model? `${st.model} ${st.open}`: st.model}>
                 <img src={tempimgSrc}/>
-                <i class="fa-solid fa-xmark cl"></i>
+                <CloseIcon onClick={()=>{
+                   setModel(false); 
+                }}/>
             </div>
             <div className={st.gallery}>
             {

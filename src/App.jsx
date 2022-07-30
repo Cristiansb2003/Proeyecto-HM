@@ -5,6 +5,7 @@ import { Info } from "./components/info/info";
 import { Actividades } from "./components/actividades/actividades";
 import { Carrucel } from "./components/carrucel/Carrucel";
 import { Galeria } from "./components/Galeria/Galeria";
+import { Slide } from "./components/slide/Slide";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       {/* <Cabecera></Cabecera>
       <Carrucel></Carrucel>
       <Info></Info>
-      <Actividades></Actividades> */}
-      <Galeria></Galeria>
+      <Actividades></Actividades>  */}
+      {/* <Galeria></Galeria> */}
+      <Slide></Slide>
     </div>
   );
 }
