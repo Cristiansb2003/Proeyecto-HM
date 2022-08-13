@@ -1,17 +1,19 @@
-import img1 from './../../utils/actividad-piloto/1.jpg'
-import img2 from './../../utils/actividad-piloto/2.jpg'
-import img3 from './../../utils/actividad-piloto/3.jpg'
-import img4 from './../../utils/actividad-piloto/4.jpg'
+import { Slideshow } from './Slideshow/Slideshow'
+import st from './slide.module.css'
+import styled from 'styled-components'
 
 export function Slide(){
     return(
-        <div>
-            <div>
-                <img src={img1}/>
-            </div>
-            <div>
-                Controles
-            </div>
-        </div>
+       <main>
+        <Titulo>Productos Destacados</Titulo>
+        <Slideshow/>
+       </main>
     )
 }
+
+const Titulo = styled.p`
+    font-size: 18px;
+    font-wight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+`;
